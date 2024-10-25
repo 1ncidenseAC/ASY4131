@@ -1,0 +1,21 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Bakito **/
+:root {
+	--ion-color-bakito: #ffa8e4;
+	--ion-color-bakito-rgb: 255,168,228;
+	--ion-color-bakito-contrast: #000000;
+	--ion-color-bakito-contrast-rgb: 0,0,0;
+	--ion-color-bakito-shade: #e094c9;
+	--ion-color-bakito-tint: #ffb1e7;
+}
+
+.ion-color-bakito {
+	--ion-color-base: var(--ion-color-bakito);
+	--ion-color-base-rgb: var(--ion-color-bakito-rgb);
+	--ion-color-contrast: var(--ion-color-bakito-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-bakito-contrast-rgb);
+	--ion-color-shade: var(--ion-color-bakito-shade);
+	--ion-color-tint: var(--ion-color-bakito-tint);
+}
